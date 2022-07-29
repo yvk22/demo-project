@@ -56,6 +56,7 @@ public class Driver {
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
+
                     break;
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
